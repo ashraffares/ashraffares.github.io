@@ -8,17 +8,17 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
 </head>
 <body>
-    <nav class="container">
+    <nav class="container bg-light">
         <div class="row">
-            <div class='col-lg-7'>
-                <a class="text-decoration-none" href="#">Fares</a>
+            <div class='col-lg-7 my-3'>
+                <a class="text-decoration-none text-dark" href="#">Fares</a>
             </div>
-            <div class='col-lg-5'>
+            <div class='col-lg-5 my-3'>
                 <div class="d-flex flex-row justify-content-around">
-                    <a class="text-decoration-none" href="">&lt;&#47;Intro&gt;</a> 
-                    <a class="text-decoration-none" href="#">Portfolio</a>
-                    <a class="text-decoration-none" href="#">Contact</a>
-                    <a class="text-decoration-none" href="#">About</a>
+                    <a class="text-decoration-none text-dark" href="">&lt;&#47;Intro&gt;</a> 
+                    <a class="text-decoration-none text-dark" href="#">Portfolio</a>
+                    <a class="text-decoration-none text-dark" href="#">Contact</a>
+                    <a class="text-decoration-none text-dark" href="#">About</a>
                 </div>
             </div> 
         </div>
@@ -43,20 +43,22 @@
         </div>
     </header>
     <section>
-        <div>
-            <div>
-                <img src="" alt="">
-            </div>
-            <div>
-                <h3></h3>
-                <p></p>
-                <div>
-                    <a href="">Ruby on rails</a>
-                    <a href="">Bootstrap</a>
-                    <a href="">Rspec</a>
+        <div class="container">
+            <div class="row shadow p-3">
+                <div class="col-lg-6 col-md-6 p-3">
+                    <img src="./assets/images/tcc.png" target="_blank" alt="" class="w-100">
                 </div>
-                <a href="">Project <i class="fab fa-github"></i></a>
-                <a href="-https://ancient-eyrie-17769.herokuapp.com/">Live <i class="fas fa-eye"></i></a>
+                <div class="col-lg-6 col-md-6">
+                    <h3>Track expenses</h3>
+                    <p>this Project is about grouping transactions and displaying all groups - all transactions - all external transactions that the user created and display chart at the home page based on the groups - transactions by name and transaction by date.</p>
+                    <div>
+                        <a href="">Ruby on rails</a>
+                        <a href="">Bootstrap</a>
+                        <a href="">Rspec</a>
+                    </div>
+                    <a href="">Project <i class="fab fa-github"></i></a>
+                    <a href="https://ancient-eyrie-17769.herokuapp.com/">Live <i class="fas fa-eye"></i></a>
+                </div>
             </div>
         </div>
     </section>
@@ -103,32 +105,33 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6">
-                    <p>I'm always interested ,in hearing about new projects, so if you'd like to chat please get in touch.</p>
+                <div class="col-lg-6 col-md-6 mt-4">
+                    <p class="h1">I'm always interested ,in hearing about new projects,<br/> so if you'd like to chat please get in touch.</p>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <form action="" class="w-100">
-                        <div class="d-flex flex-row justify-content-between ">
-                            <input type="text"placeholder="First Name" class="w-50">
-                            <input type="text"placeholder="Last Name" class="w-50">
+                        <div class="d-flex flex-row justify-content-between my-2">
+                            <input type="text"placeholder="First Name" class="w-50 rm-border">
+                            <input type="text"placeholder="Last Name" class="rm-border">
                         </div>
-                        <div>
-                            <input type="email"placeholder="Email address" class="w-100">
+                        <div class="my-2">
+                            <input type="email"placeholder="Email address" class="w-100 rm-border">
                         </div>
-                        <div>
-                            <textarea name="" id="" rows="10" placeholder="Write your message" class="w-100"></textarea>
+                        <div class="">
+                            <textarea name="" id="" rows="7" placeholder="Write your message" class="w-100 rm-border"></textarea>
                         </div>
-                        <div>
-                            <button type="submit">Get in touch</button>
+                        <div class="">
+                            <button type="submit" class="btn border text-light bg-primary">Get in touch</button>
                         </div>
                     </form>
                 </div>
             </div>
-            <div class="d-flex flex-row justify-content-center">
-                <a href="" class="p-1"><i class="fab fa-github fa-2x"></i></a>
-                <a href="" class="p-1"><i class="fab fa-linkedin fa-2x"></i></a>
-                <a href="" class="p-1"><i class="fab fa-twitter-square fa-2x"></i></a>
-                <a href="" class="p-1"><i class="fab fa-youtube fa-2x"></i></a>
+            <hr>
+            <div class="d-flex flex-row justify-content-center my-3">
+                <a href="" class="p-1"><i class="fab fa-github fa-2x text-dark"></i></a>
+                <a href="" class="p-1"><i class="fab fa-linkedin fa-2x text-dark"></i></a>
+                <a href="" class="p-1"><i class="fab fa-twitter-square fa-2x text-dark"></i></a>
+                <a href="" class="p-1"><i class="fab fa-youtube fa-2x text-dark"></i></a>
             </div>
         </div>
     </footer>

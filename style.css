@@ -1,0 +1,12 @@
+.rm-border{
+    border-top: none;
+    border-left:none;
+    border-right:none;
+    border-bottom:1px solid blue;
+}
+::placeholder {
+    color:#979493;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
