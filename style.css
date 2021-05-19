@@ -1,3 +1,8 @@
+.projects-h1 {
+    width:fit-content;
+    background:#0d6efd;
+    border-left:5px solid #191919
+}
 #about{
     background-color: #191919;
     padding:30px 0;
