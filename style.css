@@ -2,11 +2,21 @@
     border-top: none;
     border-left:none;
     border-right:none;
-    border-bottom:1px solid blue;
+    border-bottom:1px solid lightgray;
 }
 ::placeholder {
     color:#979493;
 }
 input:focus, textarea:focus, select:focus{
     outline: none;
+}
+
+.bg-textarea {
+    background: #FBF8F7;
+}
+
+
+
+footer{
+    background-color:#F9855B;
 }

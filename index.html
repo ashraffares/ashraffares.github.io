@@ -8,10 +8,10 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
 </head>
 <body>
-    <nav class="container bg-light">
+    <nav class="container">
         <div class="row">
             <div class='col-lg-7 my-3'>
-                <a class="text-decoration-none text-dark" href="#">Fares</a>
+                <a class="text-decoration-none text-primary" href="#">Fares</a>
             </div>
             <div class='col-lg-5 my-3'>
                 <div class="d-flex flex-row justify-content-around">
@@ -44,8 +44,8 @@
     </header>
     <section>
         <div class="container">
-            <div class="row shadow p-3">
-                <div class="col-lg-6 col-md-6 p-3">
+            <div class="row shadow p-3 col-11 mx-auto">
+                <div class="col-lg-6 col-md-6">
                     <img src="./assets/images/tcc.png" target="_blank" alt="" class="w-100">
                 </div>
                 <div class="col-lg-6 col-md-6">
@@ -78,61 +78,67 @@
             </div>
             <hr>
             <div class="row">
-                <div class='d-flex flex-row'>
-                    <h3>Language</h3>
-                    <a href="" class="text-decoration-none p-2">Javascript</a>
-                    <a href="" class="text-decoration-none p-2">Ruby</a>
-                    <a href="" class="text-decoration-none p-2">Html</a>
-                    <a href="" class="text-decoration-none p-2">Css</a>
+                <div class="">
+                    <h4>Language</h4>
+                    <a href="" class="text-decoration-none p-1">Javascript</a>
+                    <a href="" class="text-decoration-none p-1">Ruby</a>
+                    <a href="" class="text-decoration-none p-1">Html</a>
+                    <a href="" class="text-decoration-none p-1">Css</a>
                 </div>
-                <div class="d-flex flex-row">
-                    <h3>Framework</h3>
-                    <a href="" class="text-decoration-none p-2">Ruby on Rails</a>
-                    <a href="" class="text-decoration-none p-2">Rspec</a>
-                    <a href="" class="text-decoration-none p-2">CapyBara</a>
-                    <a href="" class="text-decoration-none p-2">Selenium</a>
-                    <a href="" class="text-decoration-none p-2">Bootstrap</a>
+                <div class="">
+                    <h4>Framework</h4> 
+                    <a href="" class="text-decoration-none p-1">Ruby on Rails</a>
+                    <a href="" class="text-decoration-none p-1">Rspec</a>
+                    <a href="" class="text-decoration-none p-1">CapyBara</a>
+                    <a href="" class="text-decoration-none p-1">Selenium</a>
+                    <a href="" class="text-decoration-none p-1">Bootstrap</a>
                 </div>
-                <div class="d-flex flex-row">
-                    <h3>Skills</h3>
-                    <a href="" class="text-decoration-none p-2">Github</a>
-                    <a href="" class="text-decoration-none p-2">Terminal</a>
-                    <a href="" class="text-decoration-none p-2">Debugging</a>
+                <div class="">
+                    <h4>Skills</h4>
+                    <a href="" class="text-decoration-none p-1">Github</a>
+                    <a href="" class="text-decoration-none p-1">Terminal</a>
+                    <a href="" class="text-decoration-none p-1">Debugging</a>
                 </div>
             </div>
         </div>
     </section>
     <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 mt-4">
-                    <p class="h1">I'm always interested ,in hearing about new projects,<br/> so if you'd like to chat please get in touch.</p>
+            <div class="row col-lg-9 mx-auto pt-5">
+                <div class="text-center">
+                    <h3 class="text-light">Interested in collaborating?</h3>
+                    <p class="text-light">If you have an application you are interested in developing, a feature that you need built or a project that need coding, I’d love to help you with it.</p>
                 </div>
-                <div class="col-lg-6 col-md-6">
-                    <form action="" class="w-100">
-                        <div class="d-flex flex-row justify-content-between my-2">
-                            <input type="text"placeholder="First Name" class="w-50 rm-border">
-                            <input type="text"placeholder="Last Name" class="rm-border">
+                    <form action="" class="">
+                        <div class="row my-3">
+                            <div class="col-lg-6 field">
+                                <input type="text"placeholder="First Name" class="form-control">
+                            </div>           
+                            <div class="col-lg-6 field">
+                                <input type="email"placeholder="Email address" class="form-control">
+                            </div>
+                        </div>  
+                        <div class="field">
+                            <textarea name="" id="" rows="6" placeholder="Write your message" class="form-control"></textarea>
                         </div>
-                        <div class="my-2">
-                            <input type="email"placeholder="Email address" class="w-100 rm-border">
-                        </div>
-                        <div class="">
-                            <textarea name="" id="" rows="7" placeholder="Write your message" class="w-100 rm-border"></textarea>
-                        </div>
-                        <div class="">
-                            <button type="submit" class="btn border text-light bg-primary">Get in touch</button>
+                        <div class="field my-3">
+                            <button type="button" class="btn bg-dark text-light btn-md form-control">Get in touch</button>
                         </div>
                     </form>
+
+                <div class="d-flex flex-row justify-content-center my-3">
+                    <a href="" class=""><i class="fas fa-envelope fa-2x text-light mx-2"></i></a>
+                    <a href="" class=""><i class="fab fa-github fa-2x text-light mx-2"></i></a>
+                    <a href="" class=""><i class="fab fa-linkedin fa-2x text-light mx-2"></i></a>
+                    <a href="" class=""><i class="fab fa-twitter-square fa-2x text-light mx-2"></i></a>
+                    <a href="" class=""><i class="fab fa-youtube fa-2x text-light mx-2"></i></a>
+                </div>
+                <hr class="border"> 
+                <div>
+                    <p class="text-light text-center">&#169;2021</p>
                 </div>
             </div>
-            <hr>
-            <div class="d-flex flex-row justify-content-center my-3">
-                <a href="" class="p-1"><i class="fab fa-github fa-2x text-dark"></i></a>
-                <a href="" class="p-1"><i class="fab fa-linkedin fa-2x text-dark"></i></a>
-                <a href="" class="p-1"><i class="fab fa-twitter-square fa-2x text-dark"></i></a>
-                <a href="" class="p-1"><i class="fab fa-youtube fa-2x text-dark"></i></a>
-            </div>
+            
         </div>
     </footer>
 </body>
