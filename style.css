@@ -1,31 +1,16 @@
-.rm-border{
-    border-top: none;
-    border-left:none;
-    border-right:none;
-    border-bottom:1px solid lightgray;
-}
-::placeholder {
-    color:#979493;
-}
-input:focus, textarea:focus, select:focus{
-    outline: none;
-}
-
-.bg-textarea {
-    background: #FBF8F7;
-}
-
-.mr-span{
-    margin-right:5px;
-}
-
-footer{
-    background-color:#F9855B;
+#about{
+    background-color: #191919;
+    padding:30px 0;
 }
 .btn-color{
-    background-color: #F9855B;
+    background: red;
+    font-weight: bolder;
 }
-
-body{
-    background-color: #E5E5E5;
+.bg-language{
+    background:red;
+    width:fit-content;
+}
+.header{
+    background-image: url("./assets/images/bg-header.png");
+    background-repeat: no-repeat;
 }
