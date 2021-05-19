@@ -15,8 +15,17 @@ input:focus, textarea:focus, select:focus{
     background: #FBF8F7;
 }
 
-
+.mr-span{
+    margin-right:5px;
+}
 
 footer{
     background-color:#F9855B;
+}
+.btn-color{
+    background-color: #F9855B;
+}
+
+body{
+    background-color: #E5E5E5;
 }
