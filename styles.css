@@ -23,8 +23,9 @@
   background-image: url("./assets/images/bg-header.png");
   background-repeat: no-repeat;
   background: #1C1A19;
-  height:500px
+  height: 500px
 }
+
 .h1-span {
   font-family: serif;
 }
