@@ -22,4 +22,10 @@
 .header {
   background-image: url("./assets/images/bg-header.png");
   background-repeat: no-repeat;
+  background-color: #1c1a19;
+  height: 500px;
+}
+
+.h1-span {
+  font-family: serif;
 }
