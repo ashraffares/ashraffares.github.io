@@ -1,0 +1,57 @@
+.main {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hColor {
+  color: #fff;
+  margin: 10px 0;
+}
+
+.txtColor {
+  color: hsla(0,0%,100%,.7);
+  padding: 0 3px;
+  font-weight: bold;
+  line-height: 1.5rem;
+}
+
+.profile_pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.info {
+  display: flex;
+}
+
+.lborder {
+  position: relative;
+  width: 5px;
+  margin-right: 10px;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px #ff6e30;
+}
+
+.navbar {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav_link {
+  display: block;
+  padding: 8px 0;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  text-decoration: none;
+  color: hsla(0,0%,100%,.7);
+  font-weight: bold;
+}
+
+.active {
+  color: #ff6e30
+}
