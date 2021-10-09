@@ -2,11 +2,40 @@ import React from 'react';
 import styles from './main.module.css';
 
 const Main = () => (
-  <div className={styles.main}>
+  <main className={styles.main}>
+  <header className={styles.header}>
+    <div className={styles.logoGroup}>
+        <div class={styles.topdiv}>
+            <div />
+            <div />
+        </div>
+       <div className={styles.bottomdiv}>
+            <div />
+            <div />
+            <div />
+        </div>
+    </div>
+    <div>
+        <a className={styles.links} href="mailto:ashraffares090@gmail.com">
+            <i class="fas fa-envelope fa-lg "  />
+        </a>
+        <a className={styles.links} href="https://github.com/ashraffares">
+            <i class="fab fa-github fa-lg  " />
+        </a>
+        <a className={styles.links} href="https://www.linkedin.com/in/faresashraf/" >
+            <i class="fab fa-linkedin fa-lg  " />
+        </a>
+        <a className={styles.links} href="https://twitter.com/Fares09301164">
+            <i class="fab fa-twitter-square fa-lg  " />
+        </a>
+    </div>
+
+  </header>
+  <section className={styles.infoContainer}>
     <div>
         <div>
-            <h1 className={styles.hColor}>Hey,</h1>
-            <h1 className={styles.hColor}>I'm Fares Ashraf</h1>
+            <h1 className={`${styles.hColor} ${styles.hsize}`}>Hey,</h1>
+            <h1 className={`${styles.hColor} ${styles.hsize}`}>I'm Fares Ashraf</h1>
             <span className={`${styles.txtColor} ${styles.hsoftware}`}>Software engineer</span>
         </div>
         <div className={styles.info}>
@@ -14,8 +43,8 @@ const Main = () => (
             <div>
                 <div>
                     <p className={styles.txtColor}>
-                    I can help you build a product,<br />
-                    feature or website Look through some of my work and experience!<br />
+                    I can help you build a product,feature or website <br />
+                    Look through some of my work and experience!<br />
                     If you like what you see and have a project you need me to coded,<br />
                     don’t hesitate to contact me.
                     </p>
@@ -56,7 +85,8 @@ const Main = () => (
         <a href="/" className={`${styles.nav_link} ${styles.active}`}>portfolio</a>
         <a href="/" className={styles.nav_link}>projects</a>
     </div>
-  </div>
+  </section>
+  </main>
   
 )
 
