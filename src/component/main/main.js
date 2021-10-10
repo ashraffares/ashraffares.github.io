@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import styles from './main.module.css';
 
 const Main = () => (
@@ -84,8 +85,8 @@ const Main = () => (
     <img className={styles.profile_pic} src="https://avatars.githubusercontent.com/u/37639594?s=400&u=7400c535793776eb926fbf93b5203bf9e0de8e53&v=4" alt="fares" /> 
     </div>
     <div className={styles.navbar}>
-        <a href="/" className={`${styles.nav_link} ${styles.active}`}>portfolio</a>
-        <a href="/" className={styles.nav_link}>projects</a>
+        <Link to="/" className={`${styles.nav_link} ${styles.active}`}>portfolio</Link>
+        <Link to="/projects" className={styles.nav_link}>projects</Link>
     </div>
   </section>
   </main>
