@@ -31,11 +31,12 @@ const Main = () => (
     </div>
 
   </header>
-  <section className={styles.infoContainer}>
+  <section className={styles.wrapper}>
+    <div className={styles.infoContainer}>
     <div>
         <div>
-            <h1 className={`${styles.hColor} ${styles.hsize}`}>Hey,</h1>
-            <h1 className={`${styles.hColor} ${styles.hsize}`}>I'm Fares Ashraf</h1>
+            <h1 className={`${styles.hColor} ${styles.h}`}>Hey,</h1>
+            <h1 className={`${styles.hColor} ${styles.h}`}>I'm Fares Ashraf</h1>
             <span className={`${styles.txtColor} ${styles.hsoftware}`}>Software engineer</span>
         </div>
         <div className={styles.info}>
@@ -80,7 +81,8 @@ const Main = () => (
             </div>
         </div>
     </div>
-    <img className={styles.profile_pic} src="https://avatars.githubusercontent.com/u/37639594?s=400&u=7400c535793776eb926fbf93b5203bf9e0de8e53&v=4" alt="fares" />
+    <img className={styles.profile_pic} src="https://avatars.githubusercontent.com/u/37639594?s=400&u=7400c535793776eb926fbf93b5203bf9e0de8e53&v=4" alt="fares" /> 
+    </div>
     <div className={styles.navbar}>
         <a href="/" className={`${styles.nav_link} ${styles.active}`}>portfolio</a>
         <a href="/" className={styles.nav_link}>projects</a>

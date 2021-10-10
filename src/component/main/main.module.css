@@ -1,6 +1,14 @@
+.main {
+  width: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+}
+
 .header {
-  width: 93vw;
-  margin: 20px auto;
+  margin: 15px 15px;
   display: flex;
   justify-content: space-between;
 }
@@ -52,18 +60,23 @@
 }
 
 .infoContainer {
-  width: 100vw;
+  width: 100%;
+  margin-left: 5px;
   display: flex;
-  justify-content: space-around;
   align-items: center;
 }
 
-.hsize {
+.h {
   font-size: 2rem;
 }
 
 .hColor {
   color: #fff;
+}
+
+.hsoftware {
+  font-family: 'Lobster', cursive;
+  font-size: 25px;
 }
 
 .txtColor {
@@ -76,6 +89,7 @@
   width: 300px;
   height: 300px;
   border-radius: 50%;
+  margin: auto;
 }
 
 .info {
@@ -91,7 +105,7 @@
 }
 
 .navbar {
-  height: 100%;
+  margin: 0 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -109,4 +123,20 @@
 
 .active {
   color: #ff6e30
+}
+
+@media only screen and (max-width: 600px) {
+  .infoContainer {
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+
+  .h {
+    text-align: center;
+  }
+
+  .hsoftware {
+    display: block;
+    text-align: center;
+  }
 }
