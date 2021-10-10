@@ -1,0 +1,24 @@
+.nav {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav_link {
+  display: block;
+  padding: 8px 0;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: hsla(0, 0%, 100%, 0.7);
+  font-weight: bold;
+}
+
+.active {
+  color: #ff6e30;
+}

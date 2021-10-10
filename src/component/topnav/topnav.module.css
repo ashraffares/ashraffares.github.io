@@ -1,0 +1,52 @@
+.nav {
+  position: sticky;
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.topdiv {
+  display: flex;
+}
+
+.topdiv div {
+  max-width: 60px;
+  width: 30px;
+  height: 10px;
+  margin: 0 1px;
+  background-color: hsla(0, 0%, 100%, 0.7);
+}
+
+.bottomdiv div {
+  width: 20px;
+  height: 10px;
+  margin: 0 1px;
+  background-color: hsla(0, 0%, 100%, 0.7);
+}
+
+.topdiv div:first-child {
+  background-color: #ff6e30;
+}
+
+.topdiv div:last-child {
+  width: 100%;
+}
+
+.bottomdiv {
+  max-width: 60px;
+  display: flex;
+  margin-top: 2px;
+}
+
+.bottomdiv div:last-child {
+  background-color: #ff6e30;
+}
+
+.links i {
+  color: #fff;
+  padding: 0 5px;
+}
+
+.links i:hover {
+  color: #ff6e30;
+}

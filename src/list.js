@@ -1,0 +1,58 @@
+const list = [
+  {
+    id: '0',
+    img: 'https://user-images.githubusercontent.com/37639594/136688565-4d7d7312-7e42-45ee-b99d-c534bdb91417.png',
+    name: 'TodoApi',
+    description: 'BookStore App" is the front-end of an application that organizes and manage books in bookstore.',
+    github: 'https://github.com/ashraffares/bookstore',
+    live: 'https://vast-eyrie-23535.herokuapp.com/',
+    stack: ['RoR', 'Ruby', 'Rspec'],
+  },
+  {
+    id: '1',
+    img: 'https://user-images.githubusercontent.com/37639594/136702986-eecd42be-5a8f-4884-acce-40e42019590f.png',
+    name: 'Book Store',
+    description: 'Todo list API is easily accessible through a modern RESTful API and secured using the JWT.',
+    github: 'https://github.com/ashraffares/TodoApiV1',
+    live: 'https://bookstore090.herokuapp.com/',
+    stack: ['RoR', 'Ruby', 'Rspec'],
+  },
+  {
+    id: '2',
+    img: 'https://user-images.githubusercontent.com/37639594/118451033-1a55b780-b6f5-11eb-8c8e-90362307a156.png',
+    name: 'Track expenses',
+    description: 'this Project is about grouping transactions and displaying all groups - transactions - external transactions.',
+    github: 'https://github.com/ashraffares/ReactCapestone',
+    live: 'https://ancient-eyrie-17769.herokuapp.com/',
+    stack: ['RoR', 'Ruby', 'Rspec', 'devise'],
+  },
+  {
+    id: '3',
+    img: 'https://raw.githubusercontent.com/ashraffares/tic-tac-toe/readme_game_instructions/images/Capture5.PNG',
+    name: 'Tic tac toe',
+    description: 'This project implements Tic tac game. The game should be played by two participants.',
+    github: 'https://github.com/ashraffares/tic-tac-toe',
+    live: 'https://github.com/ashraffares/tic-tac-toe.git',
+    stack: ['Ruby', 'Rspec'],
+  },
+  {
+    id: '4',
+    img: 'https://user-images.githubusercontent.com/37639594/136703592-47591f27-513c-481a-8e8c-a4663fef8adb.png',
+    name: 'Pokemon catalog',
+    description: "It's SPA App that fetches poke API and saves the data in Redux and contains to pages.",
+    github: 'https://github.com/ashraffares/tracker',
+    live: 'http://faresashraf.me/ReactCapestone/',
+    stack: ['JS', 'React', 'Redux', 'Jest'],
+  },
+  {
+    id: '5',
+    img: 'https://user-images.githubusercontent.com/37639594/136704768-3f453ac6-9c89-4a53-956f-b32df9e37c86.png',
+    name: 'Todo List',
+    description: "It's SPA App that allow you to create sign in and create todos and items listed to a todo",
+    github: 'https://github.com/ashraffares/todo',
+    live: 'https://competent-murdock-2e9676.netlify.app/',
+    stack: ['JS', 'React', 'Redux'],
+  },
+];
+
+export default list;

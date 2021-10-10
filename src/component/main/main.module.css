@@ -1,0 +1,71 @@
+.wrapper {
+  width: 93%;
+  display: flex;
+}
+
+.infoContainer {
+  width: 100%;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.hey {
+  width: fit-content;
+}
+
+.h {
+  font-size: 2rem;
+}
+
+.hColor {
+  color: #fff;
+}
+
+.hsoftware {
+  font-family: 'Lobster', cursive;
+  font-size: 25px;
+  text-shadow: 0 0 10px #000;
+}
+
+.txtColor {
+  color: hsla(0, 0%, 100%, 0.7);
+  padding: 0 3px;
+  line-height: 1.5rem;
+}
+
+.profile_pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: auto;
+  box-shadow: 0 25px 20px 25px rgba(0, 0, 0, 0.45);
+}
+
+.info {
+  display: flex;
+}
+
+.lborder {
+  position: relative;
+  width: 5px;
+  margin: 0 10px;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px #ff6e30;
+}
+
+@media only screen and (max-width: 600px) {
+  .infoContainer {
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+
+  .h {
+    text-align: center;
+  }
+
+  .hsoftware {
+    display: block;
+    text-align: center;
+  }
+}
