@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React from 'react';
 import styles from './main.module.css';
 
@@ -15,14 +16,12 @@ const Main = () => (
           <div>
             <div>
               <p className={styles.txtColor}>
-                I can help you build a product,feature or website
+                Software engineer and with love for clean code and industry standards,
                 {' '}
                 <br />
-                Look through some of my work and experience!
+                Pair-programming and working remotely with multinational team and meeting projects deadline.
                 <br />
-                If you like what you see and have a project you need me to coded,
-                <br />
-                don’t hesitate to contact me.
+                Fluent in english languages, and capable of ramping up quickly and efficiently.
               </p>
             </div>
             <div>
