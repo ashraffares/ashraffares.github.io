@@ -5,9 +5,9 @@ this portfolio one-page project including  about section and projects section an
 
 ## Built With
 
-- HTML5
-- Css
-- Bootstrap
+- JS
+- React
+- CSS
 
 ## Live Demo
 
