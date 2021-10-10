@@ -1,9 +1,5 @@
-.main {
-  width: 93%;
-}
-
 .wrapper {
-  width: 100%;
+  width: 93%;
   display: flex;
 }
 
@@ -28,7 +24,7 @@
 }
 
 .txtColor {
-  color: hsla(0,0%,100%,.7);
+  color: hsla(0, 0%, 100%, 0.7);
   padding: 0 3px;
   line-height: 1.5rem;
 }
