@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ashraffares.github.io/static/css/main.0943bb51.chunk.css",
-    "main.js": "/ashraffares.github.io/static/js/main.24941d77.chunk.js",
-    "main.js.map": "/ashraffares.github.io/static/js/main.24941d77.chunk.js.map",
+    "main.css": "/ashraffares.github.io/static/css/main.733535b9.chunk.css",
+    "main.js": "/ashraffares.github.io/static/js/main.33ed2766.chunk.js",
+    "main.js.map": "/ashraffares.github.io/static/js/main.33ed2766.chunk.js.map",
     "runtime-main.js": "/ashraffares.github.io/static/js/runtime-main.1ef58f19.js",
     "runtime-main.js.map": "/ashraffares.github.io/static/js/runtime-main.1ef58f19.js.map",
     "static/js/2.4fac5d55.chunk.js": "/ashraffares.github.io/static/js/2.4fac5d55.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.c94020d6.chunk.js": "/ashraffares.github.io/static/js/3.c94020d6.chunk.js",
     "static/js/3.c94020d6.chunk.js.map": "/ashraffares.github.io/static/js/3.c94020d6.chunk.js.map",
     "index.html": "/ashraffares.github.io/index.html",
-    "static/css/main.0943bb51.chunk.css.map": "/ashraffares.github.io/static/css/main.0943bb51.chunk.css.map",
+    "static/css/main.733535b9.chunk.css.map": "/ashraffares.github.io/static/css/main.733535b9.chunk.css.map",
     "static/js/2.4fac5d55.chunk.js.LICENSE.txt": "/ashraffares.github.io/static/js/2.4fac5d55.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1ef58f19.js",
     "static/js/2.4fac5d55.chunk.js",
-    "static/css/main.0943bb51.chunk.css",
-    "static/js/main.24941d77.chunk.js"
+    "static/css/main.733535b9.chunk.css",
+    "static/js/main.33ed2766.chunk.js"
   ]
 }
