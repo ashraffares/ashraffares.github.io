@@ -1,19 +1,23 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from './topnav.module.css';
 
 const Topnav = () => (
+
   <nav className={styles.nav}>
-    <div className={styles.logoGroup}>
-      <div className={styles.topdiv}>
-        <div />
-        <div />
+    <Link to="/">
+      <div className={styles.logoGroup}>
+        <div className={styles.topdiv}>
+          <div />
+          <div />
+        </div>
+        <div className={styles.bottomdiv}>
+          <div />
+          <div />
+          <div />
+        </div>
       </div>
-      <div className={styles.bottomdiv}>
-        <div />
-        <div />
-        <div />
-      </div>
-    </div>
+    </Link>
     <div>
       <a className={styles.links} href="mailto:ashraffares090@gmail.com">
         <i className="fas fa-envelope fa-lg " />
