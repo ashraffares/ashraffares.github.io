@@ -4,34 +4,7 @@ import styles from './main.module.css';
 
 const Main = () => (
   <main className={styles.main}>
-  <header className={styles.header}>
-    <div className={styles.logoGroup}>
-        <div class={styles.topdiv}>
-            <div />
-            <div />
-        </div>
-       <div className={styles.bottomdiv}>
-            <div />
-            <div />
-            <div />
-        </div>
-    </div>
-    <div>
-        <a className={styles.links} href="mailto:ashraffares090@gmail.com">
-            <i class="fas fa-envelope fa-lg "  />
-        </a>
-        <a className={styles.links} href="https://github.com/ashraffares">
-            <i class="fab fa-github fa-lg  " />
-        </a>
-        <a className={styles.links} href="https://www.linkedin.com/in/faresashraf/" >
-            <i class="fab fa-linkedin fa-lg  " />
-        </a>
-        <a className={styles.links} href="https://twitter.com/Fares09301164">
-            <i class="fab fa-twitter-square fa-lg  " />
-        </a>
-    </div>
-
-  </header>
+  
   <section className={styles.wrapper}>
     <div className={styles.infoContainer}>
     <div>
@@ -83,10 +56,6 @@ const Main = () => (
         </div>
     </div>
     <img className={styles.profile_pic} src="https://avatars.githubusercontent.com/u/37639594?s=400&u=7400c535793776eb926fbf93b5203bf9e0de8e53&v=4" alt="fares" /> 
-    </div>
-    <div className={styles.navbar}>
-        <Link to="/" className={`${styles.nav_link} ${styles.active}`}>portfolio</Link>
-        <Link to="/projects" className={styles.nav_link}>projects</Link>
     </div>
   </section>
   </main>
