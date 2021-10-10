@@ -17,6 +17,13 @@
   background-color: hsla(0, 0%, 100%, 0.7);
 }
 
+.bottomdiv div {
+  width: 20px;
+  height: 10px;
+  margin: 0 1px;
+  background-color: hsla(0, 0%, 100%, 0.7);
+}
+
 .topdiv div:first-child {
   background-color: #ff6e30;
 }
@@ -29,13 +36,6 @@
   max-width: 60px;
   display: flex;
   margin-top: 2px;
-}
-
-.bottomdiv div {
-  width: 20px;
-  height: 10px;
-  margin: 0 1px;
-  background-color: hsla(0, 0%, 100%, 0.7);
 }
 
 .bottomdiv div:last-child {
