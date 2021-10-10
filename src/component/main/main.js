@@ -6,8 +6,8 @@ const Main = () => (
     <div className={styles.infoContainer}>
       <div>
         <div>
-          <h1 className={`${styles.hColor} ${styles.h}`}>Hey,</h1>
-          <h1 className={`${styles.hColor} ${styles.h}`}>I'm Fares Ashraf</h1>
+          <h1 className={`${styles.hColor} ${styles.h} ${styles.hey}`}>Hey,</h1>
+          <h1 className={`${styles.hColor} ${styles.h}`}>I&apos;m Fares Ashraf</h1>
           <span className={`${styles.txtColor} ${styles.hsoftware}`}>Software engineer</span>
         </div>
         <div className={styles.info}>
@@ -56,7 +56,7 @@ const Main = () => (
           </div>
         </div>
       </div>
-      <img className={styles.profile_pic} src="https://avatars.githubusercontent.com/u/37639594?s=400&u=7400c535793776eb926fbf93b5203bf9e0de8e53&v=4" alt="fares" />
+      <img className={styles.profile_pic} src="https://user-images.githubusercontent.com/37639594/136700476-8a9f87fc-0b12-4c09-a974-a7c6dbed0459.png" alt="fares" />
     </div>
   </section>
 
