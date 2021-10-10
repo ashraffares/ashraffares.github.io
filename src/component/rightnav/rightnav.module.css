@@ -22,3 +22,9 @@
 .active {
   color: #ff6e30;
 }
+
+@media only screen and (max-width: 425px) {
+  .nav {
+    margin: 0;
+  }
+}

@@ -16,12 +16,12 @@ const Main = () => (
           <div>
             <div>
               <p className={styles.txtColor}>
-                Software engineer and with love for clean code and industry standards,
+                I love coding and follow industry standards,
                 {' '}
                 <br />
                 Pair-programming and working remotely with multinational team and meeting projects deadline.
                 <br />
-                Fluent in english languages, and capable of ramping up quickly and efficiently.
+                Fluent in the English language, and capable of ramping up quickly and efficiently.
               </p>
             </div>
             <div>
