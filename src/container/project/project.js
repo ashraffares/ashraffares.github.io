@@ -5,7 +5,7 @@ import styles from './project.module.css';
 
 const Project = ({ project }) => {
   const {
-    id, img, name, description, github, live, stack,
+    img, name, description, github, live, stack,
   } = project;
   return (
     <div className={styles.card}>
@@ -27,7 +27,7 @@ const Project = ({ project }) => {
       <div>
         {
           stack.map((el) => (
-            <span className={styles.span} key={id}>
+            <span className={styles.span} key={el}>
               {el}
             </span>
           ))

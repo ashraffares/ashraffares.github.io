@@ -7,7 +7,7 @@ const Main = () => (
     <div className={styles.infoContainer}>
       <div>
         <div>
-          <h1 className={`${styles.hColor} ${styles.h} ${styles.hey}`}>Hey,</h1>
+          <h1 className={`${styles.hColor} ${styles.h}`}>Hey,</h1>
           <h1 className={`${styles.hColor} ${styles.h}`}>I&apos;m Fares Ashraf</h1>
           <span className={`${styles.txtColor} ${styles.hsoftware}`}>Software engineer</span>
         </div>
