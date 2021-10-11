@@ -6,7 +6,7 @@ const list = [
     description: 'BookStore App" is the front-end of an application that organizes and manages books.',
     github: 'https://github.com/ashraffares/bookstore',
     live: 'https://vast-eyrie-23535.herokuapp.com/',
-    stack: ['RoR', 'Ruby', 'Rspec'],
+    stack: ['Ruby on Rails', 'Ruby', 'RSpec'],
   },
   {
     id: '1',
@@ -15,7 +15,7 @@ const list = [
     description: 'Todo list API is easily accessible through a modern RESTful API and secured using the JWT.',
     github: 'https://github.com/ashraffares/TodoApiV1',
     live: 'https://bookstore090.herokuapp.com/',
-    stack: ['RoR', 'Ruby', 'Rspec'],
+    stack: ['Ruby on Rails', 'Ruby', 'RSpec'],
   },
   {
     id: '2',
@@ -24,7 +24,7 @@ const list = [
     description: 'Track expenses is about grouping transactions and displaying all groups - transactions - external transactions.',
     github: 'https://github.com/ashraffares/ReactCapestone',
     live: 'https://ancient-eyrie-17769.herokuapp.com/',
-    stack: ['RoR', 'Ruby', 'Rspec', 'devise'],
+    stack: ['Ruby on Rails', 'Ruby', 'RSpec', 'Devise'],
   },
   {
     id: '3',
@@ -33,7 +33,7 @@ const list = [
     description: 'This project implements a Tic tac toe game in Ruby. The game should be played by two participants.',
     github: 'https://github.com/ashraffares/tic-tac-toe',
     live: 'https://github.com/ashraffares/tic-tac-toe.git',
-    stack: ['Ruby', 'Rspec'],
+    stack: ['Ruby', 'RSpec'],
   },
   {
     id: '4',
@@ -42,7 +42,7 @@ const list = [
     description: "It's SPA App that fetches poke API and saves the data in Redux contains to pages.",
     github: 'https://github.com/ashraffares/tracker',
     live: 'http://faresashraf.me/ReactCapestone/',
-    stack: ['JS', 'React', 'Redux', 'Jest'],
+    stack: ['JavaScript', 'React', 'Redux', 'Jest'],
   },
   {
     id: '5',
@@ -51,7 +51,7 @@ const list = [
     description: "It's SPA App that allows you to create a sign in and create todos and items listed on a todo.",
     github: 'https://github.com/ashraffares/todo',
     live: 'https://competent-murdock-2e9676.netlify.app/',
-    stack: ['JS', 'React', 'Redux'],
+    stack: ['JavaScript', 'React', 'Redux'],
   },
 ];
 
