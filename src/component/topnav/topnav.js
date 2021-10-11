@@ -22,13 +22,13 @@ const Topnav = () => (
       <a className={styles.links} href="mailto:ashraffares090@gmail.com">
         <i className="fas fa-envelope fa-lg " />
       </a>
-      <a className={styles.links} href="https://github.com/ashraffares">
+      <a className={styles.links} href="https://github.com/ashraffares" target="_blank" rel="noreferrer">
         <i className="fab fa-github fa-lg  " />
       </a>
-      <a className={styles.links} href="https://www.linkedin.com/in/faresashraf/">
+      <a className={styles.links} href="https://www.linkedin.com/in/faresashraf/" target="_blank" rel="noreferrer">
         <i className="fab fa-linkedin fa-lg  " />
       </a>
-      <a className={styles.links} href="https://twitter.com/Fares09301164">
+      <a className={styles.links} href="https://twitter.com/Fares09301164" target="_blank" rel="noreferrer">
         <i className="fab fa-twitter-square fa-lg  " />
       </a>
     </div>
