@@ -27,13 +27,13 @@ const Main = () => (
             <div>
               <div>
                 <h2 className={styles.hColor}>Front-end</h2>
-                <span className={styles.txtColor}>Javascript -</span>
+                <span className={styles.txtColor}>JavaScript -</span>
                 <span className={styles.txtColor}>React -</span>
                 <span className={styles.txtColor}>Redux -</span>
                 <span className={styles.txtColor}>HTML -</span>
                 <span className={styles.txtColor}>CSS -</span>
-                <span className={styles.txtColor}>Bootstrap -</span>
-                <span className={styles.txtColor}>Sass -</span>
+                <span className={styles.txtColor}>BootStrap -</span>
+                <span className={styles.txtColor}>SASS -</span>
                 <span className={styles.txtColor}>Jest</span>
               </div>
               <div>
@@ -50,6 +50,7 @@ const Main = () => (
                 <span className={styles.txtColor}>Netlify -</span>
                 <span className={styles.txtColor}>Chrome -</span>
                 <span className={styles.txtColor}>Dev Tools</span>
+                <span className={styles.txtColor}>Terminal</span>
               </div>
             </div>
           </div>
