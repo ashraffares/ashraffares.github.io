@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ashraffares.github.io/static/css/main.9f47123a.chunk.css",
+    "main.css": "/ashraffares.github.io/static/css/main.0567cdb5.chunk.css",
     "main.js": "/ashraffares.github.io/static/js/main.3e589994.chunk.js",
     "main.js.map": "/ashraffares.github.io/static/js/main.3e589994.chunk.js.map",
     "runtime-main.js": "/ashraffares.github.io/static/js/runtime-main.1ef58f19.js",
@@ -10,13 +10,13 @@
     "static/js/3.c94020d6.chunk.js": "/ashraffares.github.io/static/js/3.c94020d6.chunk.js",
     "static/js/3.c94020d6.chunk.js.map": "/ashraffares.github.io/static/js/3.c94020d6.chunk.js.map",
     "index.html": "/ashraffares.github.io/index.html",
-    "static/css/main.9f47123a.chunk.css.map": "/ashraffares.github.io/static/css/main.9f47123a.chunk.css.map",
+    "static/css/main.0567cdb5.chunk.css.map": "/ashraffares.github.io/static/css/main.0567cdb5.chunk.css.map",
     "static/js/2.4fac5d55.chunk.js.LICENSE.txt": "/ashraffares.github.io/static/js/2.4fac5d55.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1ef58f19.js",
     "static/js/2.4fac5d55.chunk.js",
-    "static/css/main.9f47123a.chunk.css",
+    "static/css/main.0567cdb5.chunk.css",
     "static/js/main.3e589994.chunk.js"
   ]
 }
