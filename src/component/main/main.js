@@ -57,7 +57,7 @@ const Main = () => (
                 <span className={styles.txtColor}>Teamwork -</span>
                 <span className={styles.txtColor}>Problem-Solving -</span>
                 <span className={styles.txtColor}>Flexibility/Adaptability -</span>
-                <span className={styles.txtColor}>Remote/Pair Programming</span>
+                <span className={styles.txtColor}>Remote/Pair-Programming</span>
               </div>
               <div>
                 <h2 className={styles.hColor}>Contact Me</h2>
