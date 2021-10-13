@@ -56,7 +56,7 @@ const Main = () => (
                 <h2 className={styles.hColor}>Soft Skills</h2>
                 <span className={styles.txtColor}>Teamwork -</span>
                 <span className={styles.txtColor}>Problem-Solving -</span>
-                <span className={styles.txtColor}>Flexibility/Adaptability</span>
+                <span className={styles.txtColor}>Flexibility/Adaptability -</span>
                 <span className={styles.txtColor}>Remote/Pair Programming</span>
               </div>
               <div>
