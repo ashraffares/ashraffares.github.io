@@ -31,7 +31,6 @@ const Topnav = () => (
       <a className={styles.links} href="https://twitter.com/Fares09301164" target="_blank" rel="noreferrer">
         <i className="fab fa-twitter-square fa-lg  " />
       </a>
-      <span className={styles.contact}>Contact me</span>
     </div>
 
   </nav>
