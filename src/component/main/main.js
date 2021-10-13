@@ -49,7 +49,7 @@ const Main = () => (
                 <span className={styles.txtColor}>Heroku -</span>
                 <span className={styles.txtColor}>Netlify -</span>
                 <span className={styles.txtColor}>Chrome -</span>
-                <span className={styles.txtColor}>Dev Tools</span>
+                <span className={styles.txtColor}>Dev-Tools -</span>
                 <span className={styles.txtColor}>Terminal</span>
               </div>
               <div>
