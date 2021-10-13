@@ -23,7 +23,7 @@ const list = [
     name: 'Track expenses',
     description: 'Track expenses is about grouping transactions and displaying all groups - transactions - external transactions.',
     github: 'https://github.com/ashraffares/ReactCapestone',
-    live: 'https://ancient-eyrie-17769.herokuapp.com/',
+    live: 'https://pacific-fortress-47155.herokuapp.com/users/sign_in',
     stack: ['Ruby on Rails', 'Ruby', 'RSpec', 'Devise'],
   },
   {
@@ -32,7 +32,7 @@ const list = [
     name: 'Tic tac toe',
     description: 'This project implements a Tic tac toe game in Ruby. The game should be played by two participants.',
     github: 'https://github.com/ashraffares/tic-tac-toe',
-    live: 'https://github.com/ashraffares/tic-tac-toe.git',
+    live: '',
     stack: ['Ruby', 'RSpec'],
   },
   {

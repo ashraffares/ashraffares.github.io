@@ -13,14 +13,18 @@ const Project = ({ project }) => {
       <div>
         <h4>{name}</h4>
         <div className={styles.linksContainer}>
-          <a href={github} className={styles.link}>
+          <a href={github} className={styles.link} target="_blank" rel="noreferrer">
             <i className="fab fa-github" />
             GITHUB
           </a>
-          <a href={live} className={styles.link}>
-            <i className="fas fa-external-link-square-alt" />
-            Live
-          </a>
+          {
+            live ? (
+              <a href={live} className={styles.link} target="_blank" rel="noreferrer">
+                <i className="fas fa-external-link-square-alt" />
+                Live
+              </a>
+            ) : null
+          }
         </div>
         <p>{description}</p>
       </div>
