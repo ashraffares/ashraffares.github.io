@@ -1,6 +1,21 @@
 .main {
+  margin-top: 50px;
   width: 93%;
+}
+
+.div {
+  width: fit-content;
+  margin: auto;
+  color: #ff6e30;
+}
+
+.h1 {
+  color: #fff;
+  text-align: center;
+}
+
+.projectsWrapper {
   display: flex;
-  justify-content: space-evenly;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
