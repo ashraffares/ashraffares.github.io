@@ -11,7 +11,7 @@ function App() {
       <Topnav />
       <Switch>
         <Route path="/" component={Main} exact />
-        <Route path="/projects" component={Projectlist} />
+        <Route path="/projects" component={Projectlist} exact />
         <Redirect to="/" />
       </Switch>
     </main>
