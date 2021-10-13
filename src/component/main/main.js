@@ -66,7 +66,10 @@ const Main = () => (
                   <span className={styles.txtColor}>Email: ashraffares090@gmail.com -</span>
                   <span className={styles.txtColor}>
                     Phone:
-                    <a href="tel:+0201121603394" className={styles.txtColor}>+0201121603394</a>
+                    <a href="tel:+0201121603394" className={styles.txtColor}>+0201121603394 - </a>
+                  </span>
+                  <span className={styles.txtColor}>
+                    <a className={styles.txtColor} href="https://docs.google.com/document/d/1o5Vif_lOEqD6xTodFXXqbsJxby7ioFjgi5O6iGJdrbE" target="_blank" rel="noreferrer" download>Resume</a>
                   </span>
                 </div>
               </div>
