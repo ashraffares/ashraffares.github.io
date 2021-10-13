@@ -56,7 +56,16 @@ const Main = () => (
                 <h2 className={styles.hColor}>Soft Skills</h2>
                 <span className={styles.txtColor}>Teamwork -</span>
                 <span className={styles.txtColor}>Problem-Solving -</span>
-                <span className={styles.txtColor}>Flexibility/Adaptability -</span>
+                <span className={styles.txtColor}>Flexibility/Adaptability</span>
+                <span className={styles.txtColor}>Remote/Pair Programming</span>
+              </div>
+              <div>
+                <h2 className={styles.hColor}>Contact Me</h2>
+                <span className={styles.txtColor}>Email: ashraffares090@gmail.com -</span>
+                <span className={styles.txtColor}>
+                  Phone:
+                  <a href="tel:+0201121603394" className={styles.txtColor}>+0201121603394</a>
+                </span>
               </div>
             </div>
           </div>
