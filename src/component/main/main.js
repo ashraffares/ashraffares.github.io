@@ -52,6 +52,12 @@ const Main = () => (
                 <span className={styles.txtColor}>Dev Tools</span>
                 <span className={styles.txtColor}>Terminal</span>
               </div>
+              <div>
+                <h2 className={styles.hColor}>Soft Skills</h2>
+                <span className={styles.txtColor}>Teamwork -</span>
+                <span className={styles.txtColor}>Problem-Solving -</span>
+                <span className={styles.txtColor}>Flexibility/Adaptability -</span>
+              </div>
             </div>
           </div>
         </div>
