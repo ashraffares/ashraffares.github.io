@@ -6,7 +6,7 @@ const list = [
     description: 'BookStore App" is the front-end of an application that organizes and manages books.',
     github: 'https://github.com/ashraffares/bookstore',
     live: 'https://vast-eyrie-23535.herokuapp.com/',
-    stack: ['Ruby on Rails', 'Ruby', 'RSpec'],
+    stack: ['Ruby on Rails', 'Ruby'],
   },
   {
     id: '1',
@@ -15,7 +15,7 @@ const list = [
     description: 'Todo list API is easily accessible through a modern RESTful API and secured using the JWT.',
     github: 'https://github.com/ashraffares/TodoApiV1',
     live: 'https://bookstore090.herokuapp.com/',
-    stack: ['Ruby on Rails', 'Ruby', 'RSpec'],
+    stack: ['Ruby on Rails', 'Ruby'],
   },
   {
     id: '2',
@@ -24,7 +24,7 @@ const list = [
     description: 'Track expenses is about grouping transactions and displaying all groups - transactions - external transactions.',
     github: 'https://github.com/ashraffares/ReactCapestone',
     live: 'https://pacific-fortress-47155.herokuapp.com/users/sign_in',
-    stack: ['Ruby on Rails', 'Ruby', 'RSpec', 'Devise'],
+    stack: ['Ruby on Rails', 'Ruby'],
   },
   {
     id: '3',
