@@ -1,6 +1,8 @@
 .main {
-  width: 93%;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  width: 95%;
+}
+
+.main > .rec.rec-arrow-left {
+  background-color: red;
+  color: red;
 }

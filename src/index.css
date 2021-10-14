@@ -3,3 +3,26 @@ body {
   padding: 0;
   background: linear-gradient(100deg, rgba(0, 0, 0, 0.856), #000);
 }
+
+.rec.rec-arrow {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #ff6e30;
+}
+
+.rec.rec-arrow:hover:enabled,
+.rec.rec-arrow:focus:enabled {
+  background-color: #ff6e30;
+  color: #000;
+  border: 2px solid #000;
+}
+
+.rec.rec-dot_active {
+  background-color: #ff6e30;
+  box-shadow: 00 1px 5px #000;
+}
+
+.rec.rec-dot:hover,
+.rec.rec-dot:focus {
+  box-shadow: 0 0 1px 5px #000;
+}
