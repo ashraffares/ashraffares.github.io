@@ -15,12 +15,14 @@ const Project = ({ project }) => {
         <div className={styles.linksContainer}>
           <a href={github} className={styles.link} target="_blank" rel="noreferrer">
             <i className="fab fa-github" />
+            {' '}
             GITHUB
           </a>
           {
             live ? (
               <a href={live} className={styles.link} target="_blank" rel="noreferrer">
                 <i className="fas fa-external-link-square-alt" />
+                {' '}
                 Live
               </a>
             ) : null
