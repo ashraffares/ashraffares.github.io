@@ -51,22 +51,6 @@
   box-shadow: 2px 2px 2px #ff6e30;
 }
 
-.linksWrapper {
-  border-top: 1px solid #000;
-  display: flex;
-  justify-content: center;
-  padding: 20px 0;
-}
-
-.links i {
-  color: #fff;
-  padding: 0 5px;
-}
-
-.links i:hover {
-  color: #ff6e30;
-}
-
 @media only screen and (max-width: 600px) {
   .infoContainer {
     flex-direction: column;
